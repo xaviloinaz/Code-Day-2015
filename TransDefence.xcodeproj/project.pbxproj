@@ -17,6 +17,7 @@
 		47AEC83E1BEEFACA00D942BB /* TransDefenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEC83D1BEEFACA00D942BB /* TransDefenceTests.swift */; };
 		47AEC8491BEEFACA00D942BB /* TransDefenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEC8481BEEFACA00D942BB /* TransDefenceUITests.swift */; };
 		47AEC8571BEF020D00D942BB /* VisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEC8561BEF020D00D942BB /* VisualComponent.swift */; };
+		47AEC8591BEF085F00D942BB /* MovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEC8581BEF085F00D942BB /* MovementComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		47AEC8481BEEFACA00D942BB /* TransDefenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransDefenceUITests.swift; sourceTree = "<group>"; };
 		47AEC84A1BEEFACA00D942BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47AEC8561BEF020D00D942BB /* VisualComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualComponent.swift; sourceTree = "<group>"; };
+		47AEC8581BEF085F00D942BB /* MovementComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				47AEC8261BEEFACA00D942BB /* GameScene.sks */,
 				47AEC8281BEEFACA00D942BB /* GameScene.swift */,
 				47AEC8561BEF020D00D942BB /* VisualComponent.swift */,
+				47AEC8581BEF085F00D942BB /* MovementComponent.swift */,
 				47AEC82A1BEEFACA00D942BB /* GameViewController.swift */,
 				47AEC82C1BEEFACA00D942BB /* Main.storyboard */,
 				47AEC82F1BEEFACA00D942BB /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AEC8591BEF085F00D942BB /* MovementComponent.swift in Sources */,
 				47AEC8291BEEFACA00D942BB /* GameScene.swift in Sources */,
 				47AEC82B1BEEFACA00D942BB /* GameViewController.swift in Sources */,
 				47AEC8251BEEFACA00D942BB /* AppDelegate.swift in Sources */,
